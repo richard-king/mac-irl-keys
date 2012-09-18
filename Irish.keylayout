@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!-- Fri, 24 Feb 2006 Generated from KCHR: "Irish" -->
+<!--Last edited by Ukelele version 2.2.1 on 2012-09-18 at 01:29 (IST)-->
 <keyboard group="0" id="50" name="Irish" maxout="2">
     <layouts>
         <layout first="0" last="0" modifiers="commonModifiers" mapSet="ANSI"/>
@@ -91,7 +93,7 @@
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action=" "/>
-            <key code="50" output="`"/>
+            <key code="50" action="` 1"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -1062,6 +1064,10 @@
         </action>
         <action id="`">
             <when state="none" next="s7"/>
+        </action>
+        <action id="` 1">
+            <when state="none" next="s7"/>
+            <when state="s7" output="`"/>
         </action>
         <action id="a">
             <when state="none" output="a"/>
