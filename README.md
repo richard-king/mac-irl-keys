@@ -5,7 +5,7 @@ This is the XML code to correct the key mapping on an Apple Macintosh computer w
 * Tested: `OSX 10.8.1 (Mountain Lion)` (64-bit) -- 18 September 2012
 
 ## About
-This is one of the most frustrating aspects of switching to a Macintosh for non Apple users as even the default Apple has set for Ireland fails to locate the double inverted comma correctly, particularly in the case where you have a normally layed out keyboard and are so unable to reference the no doubt elegant and innovative character placement. :P
+This is one of the most frustrating aspects of switching to a Macintosh for non Apple users as even the default Apple has set for Ireland fails to locate the double inverted comma correctly, particularly in the case where you have a normally layed out keyboard and are so unable to reference the, no doubt *'elegant'* and *'innovative'*, character placement. :P
 
 ### Features
 * Full standard keyboard, lowwer and upper case.
@@ -13,23 +13,23 @@ This is one of the most frustrating aspects of switching to a Macintosh for non 
 * Euro sign (€): Alt-4
 * Broken bar (¦): Alt-`
 * Dead keys for diacritics found in major European languages:
-** `: ` - Grave accent
-** Alt-6: ˆ - Circumflex
-** Alt-8: ¨ - Diareses
-** Alt-w: ˙ - Overdot
-** Alt-k: ˚ - Ring
-** Alt-c: ¸ - Cedilla
-** Alt-n: ˜ - Tilde
+	* \`: \` - Grave accent
+	* Alt-6: ˆ - Circumflex
+	* Alt-8: ¨ - Diareses
+	* Alt-w: ˙ - Overdot
+	* Alt-k: ˚ - Ring
+	* Alt-c: ¸ - Cedilla
+	* Alt-n: ˜ - Tilde
 
 
 ## How to install
 
-* System Preferences > Language & Text > Input Sources
-* Select Irish from the list.
-* Clone or download the Repo and place the `Irish.keylayout` and `Irish.icns` files in the `/System/Library/Keyboard Layouts` directory.
-* System Preferences > Language & Text > Input Sources
-* Select the unselected Irish from the list.
-* Deselect the old Irish on the list.
+1. System Preferences > Language & Text > Input Sources
+2. Select Irish from the list.
+3. Clone or download the Repo and place the `Irish.keylayout` and `Irish.icns` files in the `/System/Library/Keyboard Layouts` directory.
+4. System Preferences > Language & Text > Input Sources
+5. Select the unselected Irish from the list.
+6. Deselect the old Irish on the list.
 
 ## Issues
 
